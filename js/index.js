@@ -28,7 +28,7 @@ const adivinaNumero = () => {
     mensaje =
       inputAdivinaElemento.valueAsNumber > numeroAleatorio
         ? "El numero secreto es menor"
-        : (mensaje = "El numero secreto es mayor");
+        : "El numero secreto es mayor";
 
     clase = "error";
   } else {
